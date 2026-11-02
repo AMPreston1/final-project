@@ -1,0 +1,27 @@
+.index.home {
+  background-color: Green;
+  heading {
+    fontcolor: white;
+  }
+  paragraph {
+    fontcolor: Goldenrod;
+  }
+}
+.page2.sports {
+  background-color: Green;
+  heading {
+    fontcolor: white;
+  }
+  paragraph {
+    fontcolor: Goldenrod;
+  }
+}
+.page3.food {
+  background-color: Green;
+  heading {
+    fontcolor: white;
+  }
+  paragraph {
+    fontcolor: Goldenrod;
+  }
+}
