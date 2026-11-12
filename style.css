@@ -1,27 +1,45 @@
-.index.home {
-  background-color: Green;
-  heading {
-    fontcolor: white;
-  }
-  paragraph {
-    fontcolor: Goldenrod;
-  }
+html {
+  scroll-behavior: smooth;
 }
-.page2.sports {
-  background-color: Green;
-  heading {
-    fontcolor: white;
-  }
-  paragraph {
-    fontcolor: Goldenrod;
-  }
+
+body {
+  background-color: #174b32;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.page3.food {
-  background-color: Green;
-  heading {
-    fontcolor: white;
-  }
-  paragraph {
-    fontcolor: Goldenrod;
-  }
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: Goldenrod;
+}
+
+h1 {
+  background-color: Goldenrod;
+  color: white;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+  color: Goldenrod;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
