@@ -36,11 +36,29 @@ p {
 }
 
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: Goldenrod;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.75rem;
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 
-  color: Goldenrod;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
 }
 
 img {
